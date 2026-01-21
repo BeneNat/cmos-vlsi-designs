@@ -15,7 +15,7 @@ The repository documents the design of three progressive digital blocks, focusin
 ### 1. Synchronous Down Counter (4-bit)
 **Function:** A synchronous counter counting down from 14 to 0 (step 2) in Natural Binary Code (NBC).
 
-![Synchronous Counter Layout](img/counter_layout.png)
+![Synchronous Counter Layout](img/counter_layout.png)<br>
 *Above: Physical layout of the 4-bit counter showing optimized placement.*
 
 * **Architecture:** Built using D Flip-Flops and standard logic gates (AND, OR, NOT).
@@ -28,7 +28,7 @@ The repository documents the design of three progressive digital blocks, focusin
 ### 2. D-Latch with Transmission Gates
 **Function:** A level-sensitive D-Latch.
 
-![D-Latch Layout](img/dlatch_layout.png)
+![D-Latch Layout](img/dlatch_layout.png)<br>
 *Above: Compact layout utilizing transmission gates to reduce transistor count.*
 
 * **Design Strategy:** Utilized **Transmission Gate (TG)** logic instead of standard static CMOS to reduce transistor count and improve density.
@@ -41,7 +41,7 @@ The repository documents the design of three progressive digital blocks, focusin
 ### 3. NAND Gate
 **Function:** Fundamental 2-input NAND logic gate.
 
-![NAND Gate Layout](img/nand_layout.png)
+![NAND Gate Layout](img/nand_layout.png)<br>
 *Above: Standard cell layout for a 2-input NAND gate.*
 
 * **Analysis:**
